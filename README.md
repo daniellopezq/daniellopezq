@@ -26,12 +26,12 @@ The engineering problems are mostly about reliability. Distributed state across 
 
 Payments, subscriptions, entitlements, CRM and SMS integrations, private content delivery, admin workflows and background jobs. I owned the system end to end. That covered modeling how the business actually sells and grants access, and turning it into rules the platform enforces, so nobody has to fix things by hand.
 
-`Django` · `React` · `PostgreSQL` · `Stripe` · `Celery-style background jobs`
+`Django` · `DRF` · `React` · `PostgreSQL` · `Celery` · `Redis` · `Square` · `Twilio` · `GoHighLevel` · `Pipedrive`
 
 ### Local Business Classifier
 **Python desktop app for evidence-backed business classification with local LLMs**
 
-It processes CSV/XLSX lead lists, researches each business's website, and classifies the business with local models through LM Studio. Each result keeps the evidence it was based on. Processing can resume after interruption, it recovers from failures, deduplicates records and has a test suite. No data leaves the machine.
+It processes CSV/XLSX lead lists, researches each business's website, and classifies the business with local models through LM Studio. Each result keeps the evidence it was based on. Processing can resume after interruption, it recovers from failures, deduplicates records and has a test suite. Model inference stays local, and business data is not sent to a cloud LLM.
 
 `Python` · `LM Studio` · `Local LLMs` · `pytest`
 
