@@ -1,12 +1,14 @@
 # Daniel Lopez Quezada
 
-**Technical Operations, Systems Integration & Applied AI**: I turn messy business operations into production systems.
+**Solutions Engineer · AI & Telephony Integrations**
 
-I build systems that connect operations, data, APIs, telephony, automation and AI. Most of my work sits where a business process meets software. Leads have to be routed, calls placed and recorded, appointments scheduled, contractors informed and billed, and reports trusted. The workflows still need to make sense when a provider fails or systems disagree.
+I turn messy business operations into production systems: leads routed, calls placed and recorded, appointments set, contractors billed, reports people can trust. And it all has to keep working when a provider fails or two systems disagree.
 
-My technical background came before modern AI tools. I started in operations, data, SQL, GIS and workflow systems, then moved into Python, APIs, backend services, telephony, automation and production infrastructure. That path shaped how I work. I begin with the operational problem and the outcome it needs, and the technology comes after.
+I've run businesses since 2011 and taught myself into technical work in every role I've had: SQL and GIS in operations, then Python and APIs, then telephony and production infrastructure. I start from the business rule and build the system that enforces it.
 
-I work across functions: operations, data, integrations, product and engineering. I'm usually the person who understands the business rule and also ships the system that enforces it.
+- **Built and run Helios**, the platform a home-services lead-generation business has used every day since March 2026. It opens to outside companies in a pilot starting late October 2026.
+- **Cut cost per connected minute by about 2.4×** by moving calls from Twilio's API to SIP trunks behind a self-hosted FreeSWITCH server, then turned that meter into a product billed per minute.
+- **Three voice carriers behind one dialplan**, with VICIdial integrated around Helios as the system of record.
 
 ---
 
@@ -17,7 +19,7 @@ Helios and Course Platform are case studies of private production systems; Local
 > **Why this profile looks new:** my earlier production work lives in my company's private repositories, and client work stays private. The contribution graph includes that private activity. These public repos, published in October 2026, are case studies and sanitized copies of real systems, so the code can be reviewed without exposing client or business data.
 
 ### [Helios](https://github.com/daniellopezq/helios-portfolio)
-**Production operations platform for a home-services business**
+**Production operations platform for a home-services business.** In daily use with real users since March 2026; opening to outside companies through a pilot in late October 2026.
 
 Lead management, outbound/inbound telephony, appointments, contractor workflows, SMS, call recordings, transcription, billing, reporting and applied AI, all in one system that a live business runs on every day.
 
