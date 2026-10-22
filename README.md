@@ -14,6 +14,8 @@ I work across functions: operations, data, integrations, product and engineering
 
 Helios and Course Platform are case studies of private production systems; Local Business Classifier and Tablet Dashboard include publicly inspectable application code.
 
+> **Why this profile looks new:** my earlier production work lives in my company's private repositories, and client work stays private. The contribution graph includes that private activity. These public repos, published in October 2026, are case studies and sanitized copies of real systems, so the code can be reviewed without exposing client or business data.
+
 ### [Helios](https://github.com/daniellopezq/helios-portfolio)
 **Production operations platform for a home-services business**
 
@@ -40,7 +42,7 @@ It processes CSV/XLSX lead lists, researches each business's website, and classi
 ### [Tablet Dashboard](https://github.com/daniellopezq/tablet-dashboard)
 **Local-first home dashboard and control interface for Android 4.4 / Chrome 50**
 
-An ES5 client and lightweight Python server bring weather, Google Calendar, Uptime Kuma, Home Assistant controls, camera snapshots, motion alerts and RTSP-to-MJPEG live viewing to a low-resource tablet. Cloud AI and speech input have measured local fallback options (Qwen via llama.cpp on CPU; Whisper via whisper.cpp on GPU) for qualifying connectivity failures. The project includes reproducible hardware/model benchmarks and a documented 227-test suite. Camera integration and on-device validation are still being refined; home-control APIs currently trust the local network.
+An ES5 client and lightweight Python server bring weather, Google Calendar, Uptime Kuma, Home Assistant controls, camera snapshots, motion alerts and RTSP-to-MJPEG live viewing to a low-resource tablet. Cloud AI and speech input have measured local fallback options (Qwen via llama.cpp on CPU; Whisper via whisper.cpp on GPU) for qualifying connectivity failures. The project includes reproducible hardware/model benchmarks and a 269-test suite run in CI. Camera integration and on-device validation are still being refined; home-control APIs currently trust the local network.
 
 `Python (stdlib)` · `JavaScript (ES5)` · `Home Assistant` · `FFmpeg` · `llama.cpp / whisper.cpp` · `Uptime Kuma`
 
